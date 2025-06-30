@@ -1,0 +1,60 @@
+{
+    "name": "Robot_Base",
+    "rotations": [
+      {"axis":"z", "degrees": -90}
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "cameras": [
+      {
+        "name": "Cam_1",
+        "rotations": {},
+        "position": [],
+        "resolution": [],
+        "fov": 60
+      }
+    ],
+    "components": [
+      {
+        "zeroedRotations":[], 
+        "zeroedPosition": [
+          0,
+          0,
+          0.03
+        ]
+      },
+      {
+        "zeroedRotations":[
+        ], 
+        "zeroedPosition": [
+          0.1,
+          0,
+          0.03
+        ]
+      },
+      {
+        "zeroedRotations":[
+          {"axis":"y", "degrees": 60}
+        ], 
+        "zeroedPosition": [
+          0,
+          0.2026,
+          0
+        ]
+      },
+      {
+        "zeroedRotations":[
+          {"axis":"z", "degrees": 180},
+          {"axis":"y", "degrees": 170}
+        ], 
+        "zeroedPosition": [
+          -0.406,
+          0,
+          0.365
+        ]
+      }
+    ]
+  }
